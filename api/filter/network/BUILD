@@ -48,4 +48,9 @@ api_proto_library(
 api_proto_library(
     name = "hystrix",
     srcs = ["hystrix.proto"],
+    deps = [
+        "//api:address",
+        "//api/filter/accesslog",
+    ],
+    
 )
