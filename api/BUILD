@@ -178,5 +178,6 @@ proto_library(
         "//api/filter/network:rate_limit",
         "//api/filter/network:redis_proxy",
         "//api/filter/network:tcp_proxy",
+        "//api/filter/network:hystrix",
     ],
 )

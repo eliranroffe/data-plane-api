@@ -44,3 +44,8 @@ api_proto_library(
     srcs = ["rate_limit.proto"],
     deps = ["//api:rls"],
 )
+
+api_proto_library(
+    name = "hystrix",
+    srcs = ["hystrix.proto"],
+)
